@@ -34,8 +34,9 @@ function App() {
     <>
      <Header />
      <Balance balance={calculateBalance()} />
+     <br /><br />
      <IncomeExpenses income={calculateIncome()}  expense={calculateExpenses()} />
-     <br /> <br />
+     <br /> <br /> 
      <TransactionList transactions={transactions} />
      <br /><br />
      <AddTransaction addTransaction={addTransaction} />
